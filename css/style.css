@@ -83,7 +83,6 @@ a {
 }
 
 .section2 {
-    margin-bottom: 150px;
 
 }
 
@@ -121,4 +120,31 @@ h2 {
     height: 150px;
     margin-right: 25px;
 
+}
+
+.section3 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-color: #e5e7e5;
+}
+
+.quote {
+    display: flex;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1f2937;
+    width: 700px;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+}
+
+.quoter {
+    flex-direction: row;
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+    padding-bottom: 10px;
 }
